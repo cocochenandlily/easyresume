@@ -77,7 +77,7 @@
     ],
     "sections": [
         {
-            "title": "自定义模块二",
+            "title": "技术能力",
             "fragments": [
                 {
                     "name": "自定义模块二之段落一",
@@ -92,11 +92,24 @@
             ]
         },
         {
-            "title": "自定义模块三",
+            "title": "技术能力",
             "points": [
-                "列表1",
-                "列表2",
-                "列表3"
+                "数据库: mysql、oracle、postgresql",
+                "NoSql: redis",
+                "mq: rocketmq",
+		"java: spring、springcloud、dubbo",
+		"vue: elementui",
+		"react: antd",
+		"服务器: linux、bash、nginx"
+            ]
+        },
+	{
+            "title": "个人性格",
+            "points": [
+                "爱好技术，喜欢逛博客园，喜欢参加线下交流会",
+                "性格稳重，工作认真负责",
+                "坚信What we do willingly is easy!",
+		"希望我的加入能给贵公司和我带来双赢的结果"
             ]
         }
     ],
