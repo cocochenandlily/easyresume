@@ -58,7 +58,7 @@
             "details": [
                 "负责公众号、小程序、企业微信接口对接",
                 "使用es进行页面查询优化",
-                "牛逼的项目细节三"
+                "业务功能前后端开发"
             ]
         },
         {
@@ -78,29 +78,14 @@
     "sections": [
         {
             "title": "技术能力",
-            "fragments": [
-                {
-                    "name": "自定义模块二之段落一",
-                    "comment": "副标题（可以缺省）",
-                    "startDate": "开始日期（可缺省）",
-                    "endDate": "结束日期（可缺省）",
-                    "summary": "blablablablabla",
-                    "details": [
-                        "细节1234"
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "技术能力",
             "points": [
-                "数据库: mysql、oracle、postgresql",
+                "db: mysql、oracle、postgresql",
                 "NoSql: redis",
                 "mq: rocketmq",
 		"java: spring、springcloud、dubbo",
 		"vue: elementui",
 		"react: antd",
-		"服务器: linux、bash、nginx"
+		"linux: bash、nginx"
             ]
         },
 	{
