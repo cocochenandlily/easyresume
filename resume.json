@@ -4,7 +4,7 @@
     "tel": "13524213669",
     "email": "476903391@qq.com",
     "blog": "",
-    "avatar": "头像的路径（相对于项目路径）",
+    "avatar": "image/avatar.jpg",
     "pages": [],
     "summaries": [
         "5年开发经验",
