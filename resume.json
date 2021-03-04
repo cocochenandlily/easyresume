@@ -54,23 +54,29 @@
             "role": "全栈开发",
             "startDate": "2019.03.01",
             "endDate": "2020.07.26",
-            "summary": "该系统主要用于帮助客户进行会员管理，积分成长值计算，订单管理，优惠券发放核销，对指定会员进行营销，管理店员kpi等，主要服务客户有明康汇、樊文花、思妍丽、华氏大药房、兆妩服饰等。",
+            "summary": "该系统主要用于帮助客户进行会员生命周期管理，积分成长值计算，订单管理，优惠券发放核销，对指定会员进行营销，管理店员kpi等，主要服务客户有明康汇、樊文花、思妍丽、华氏大药房、兆妩服饰等。主要用到的技术有：在数据库方面，采用oracle和pgsql；在后台方面，主要采用基于spring、spring cloud全家桶开发；在前端方面，后台管理系统用elementui开发，企业微信应用页面基于vue-vant开发；营销系统前端采用mxgraph和vue-antd进行开发；身份认证主要通过分布式ehcache实现；在调度方面，采用了xxl-job框架；在配置中心上采用了apollo；在会员、会员券、订单等的查询方面，采用了logstash进行数据同步，采用elastic search进行查询；在日志存储方面，采用elk；部署主要在云端；负载均衡方面通过nginx实现；代码管理方面采用svn和git。",
             "details": [
-                "负责公众号、小程序、企业微信接口对接",
-                "使用es进行页面查询优化",
-                "业务功能前后端开发"
-            ]
+                "负责公众号、小程序、企业微信接口对接。主要接口有公众号方面二维码接口、事件接口、token接口、客服接口、图文接口、素材接口、菜单接口、模板接口、粉丝接口；企业微信方面，token接口、事件接口、员工接口、部门接口、导购接口、素材接口、消息接口。",
+                "使用es进行页面查询优化，使得复杂页面查询由十多秒减少至一秒内。",
+		"可视化营销系统开发。这是一个可以拖拉拽的营销系统，通过简单操作方便业务人员获得满足要求的会员，并对其进行个性化营销。",
+		"部分数据库存储过程的编写，如订单转化存储过程。",
+		"负责游戏系统及问卷系统开发及维护。主要有大转盘和刮刮乐两种游戏，会员通过游戏获得积分奖励及其他；",
+		"业务功能前后端开发"
+	    ]
         },
         {
             "projectName": "安全治理系统",
             "role": "全栈开发",
             "startDate": "2020.07.26",
             "endDate": "2021.11.01",
-            "summary": "该系统主要给应急局用于隐患全生命周期的管理",
+            "summary": "该系统主要给应急局用于隐患全生命周期的管理。主要用到的技术有：在数据库方面，采用了mysql和pgsql；在后台方面，主要采用基于spring、spring cloud全家桶开发；注册中心采用了nacos；集成了activity工作流；pc端采用vue和react开发，手机端采用react native开发；消息中间件采用rocketmq；调度方面采用xxl-job；",
             "details": [
                 "引入rocketmq进行解耦，解决业务中需要将隐患同步给省平台时的卡顿问题",
-                "将调度框架由quartz升级为xxl-job",
-                "配合朗新集成单点登录功能",
+                "将调度框架由quartz升级为xxl-job，将任务调度器与执行器解耦分离",
+                "集成单点登录功能",
+		"优化报表数据接口，利用多线程并发处理数据",
+		"通过mq和netty结合主动推送消息",
+		"负责部分sql优化",
                 "业务功能前后端开发"
             ]
         }
@@ -80,19 +86,23 @@
             "title": "技术能力",
             "points": [
                 "db: mysql、oracle、postgresql",
-                "NoSql: redis",
+                "NoSql: redis、mongodb",
                 "mq: rocketmq",
-		"java: spring、springcloud、dubbo",
+		"java: spring、springcloud、dubbo、zookeeper、ehcache、apollo、nacos",
 		"vue: elementui",
 		"react: antd",
-		"linux: bash、nginx"
+		"linux: bash、nginx",
+		"code manage: svn、git",
+		"ci: jenkins",
+		"english: CET6"
             ]
         },
 	{
             "title": "个人性格",
             "points": [
-                "爱好技术，喜欢逛博客园，喜欢参加线下交流会",
+                "爱好技术，喜欢逛博客园，喜欢参加线下交流会（多次参加开源中国线下交流会、运维交流会、mongodb年会）",
                 "性格稳重，工作认真负责",
+		"善于思考，喜欢将学到的新技术应用实际",
                 "坚信What we do willingly is easy!",
 		"希望我的加入能给贵公司和我带来双赢的结果"
             ]
